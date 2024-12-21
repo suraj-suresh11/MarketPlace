@@ -1,0 +1,97 @@
+/* Header container styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #222;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Left section of the header */
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 100px; /* Adjusted gap between elements */
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.search-bar-container {
+  position: relative;
+  width: 500px; /* Adjusted width */
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: #333;
+  color: white;
+  border: none;
+  font-size: 14px;
+}
+
+.search-bar:focus {
+  outline: none;
+  box-shadow: 0 0 5px 2px #4c7feb; /* Focus effect for search bar */
+}
+
+.search-bar-button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  color: #bbb;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.search-bar-button:hover {
+  color: #fff; /* Hover effect */
+}
+.location{
+  position: relative;
+  width: 300px; /* Adjusted width */
+
+}
+
+/* Location Dropdown */
+.location-select {
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: #333;
+  color: white;
+  border: none;
+  font-size: 14px;
+}
+
+/* Right section of the header */
+.header-right {
+  display: flex;
+  gap: 10px;
+}
+
+.sell-button,
+.sign-up-button {
+  background-color: #f0ad4e;
+  color: #222;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sell-button:hover,
+.sign-up-button:hover {
+  background-color: #ec971f;
+}
